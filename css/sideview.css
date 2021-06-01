@@ -1,0 +1,52 @@
+html{
+
+    background-color: green;
+}
+.container{
+    max-width: 940px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    padding-left: 40px;
+    padding-right:40px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: tahoma, san-serf;
+    font-size: 87%;
+
+}
+
+
+header h1{
+    margin: 0;
+    padding-top:20px;
+    
+}
+
+header p{
+    margin:0;
+    padding-bottom:20px;
+}
+
+.contentarea{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.main-area{
+    width:40%;
+    float:left;
+}
+
+.sidebar{
+    width:30%;
+    float:left;
+    background-color: yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fix{
+    clear:both;
+}
